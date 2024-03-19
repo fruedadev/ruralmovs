@@ -5,7 +5,8 @@ CLI program to get the movements in a Ruralvia account.
 from selenium import webdriver
 from selenium.webdriver.edge.options import Options
 from argparse import Namespace, ArgumentParser
-from src.ruralvia import Login
+
+from ruralvia import Login
 
 # Constants
 DEBUG = False
